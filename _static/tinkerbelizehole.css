@@ -189,14 +189,13 @@ a:hover, a:focus{
 }
 
 #container, article, aside, header, footer {
-    width: 100%;
     margin: 0 auto;
     word-wrap: break-word;
 }
 
 #container {
-    padding: 0 40px 0 20px;
-    width: 880px;
+    padding: 0 20px 0 20px;
+    max-width: 880px;
     margin: 0 auto;
 }
 
@@ -254,7 +253,7 @@ span.title_tag, span.title_category{
 }
 
 .main-container, header, nav, #container{
-    width: 880px;
+    max-width: 880px;
 }
 
 /* body */
@@ -265,7 +264,7 @@ div.timestamp {
 
 article{
     padding: 40px;
-    width: 800px;
+    max-width: 800px;
     margin: 50px 0;
     background: white;
     -moz-box-shadow: 0 0 2px #e6dfcb;
@@ -355,7 +354,7 @@ footer {
     padding: 15px 0 10px 0;
     font-size: 12px;
     color: #5b4f2e;
-    width: 800px;
+    max-width: 800px;
     margin: 0 auto;
 }
 
@@ -402,7 +401,7 @@ aside section {
 }
 
 .widget {
-    width: 800px;
+    max-width: 800px;
 }
 
 /* Archive */
